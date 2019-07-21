@@ -61,7 +61,7 @@ for (int p = 0 ; p < 34 ; p++) begin
     end
 #50
 for (int i = 0 ; i < 10 ; i++) begin
-        #5 wr = 1;
+        #5 wr <= 1;
 		
 end
 #50
